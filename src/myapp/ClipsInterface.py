@@ -1,4 +1,3 @@
-from Fact import Fact
 from typing import List
 from clips import Environment
 
@@ -17,8 +16,8 @@ class ClipsInterface:
     def run_inference(self):
         self.__clips_enviroment.run()
 
-    def actual_facts(self) -> List[Fact]:
-        return list(map(lambda f: Fact(f.template.name), self.__clips_enviroment.facts()))
+    def actual_facts(self) -> List[str]:
+        return list(map(lambda f: f.template.name, self.__clips_enviroment.facts()))
 
-    def insert_new_fact(self, new_fact: Fact):
-        self.__clips_enviroment.assert_string(f"({new_fact.value})")
+    def insert_new_fact(self, new_fact: str):
+        self.__clips_enviroment.assert_string(new_fact)

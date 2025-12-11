@@ -1,14 +1,6 @@
-from ClipsInterface import ClipsInterface
-from Fact import Fact
-
-clips = ClipsInterface()
-
-clips.insert_new_fact(Fact.UTILIZA_CREDITO)
-clips.insert_new_fact(Fact.NAO_PAGOU_TOTAL_DA_FATURA)
+from fastapi import FastAPI
+from src.myapp.routes.ConsultRouter import ConsultRouter
+app = FastAPI()
 
 
-clips.run_inference()
-
-facts = clips.actual_facts()
-for i in range(len(facts)):
-    print(f"{i+1} - {facts[i]}")
+app.include_router(ConsultRouter().router)
