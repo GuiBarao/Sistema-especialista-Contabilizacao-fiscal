@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "new_fact_if_true": "utiliza-credito",
+      "question": "Você realizou compras utilizando o cartão de crédito neste período?"
+    },
+    {
+      "new_fact_if_true": "nao-pagou-total-da-fatura",
+      "question": "No último mês, você deixou de pagar o valor total da fatura do cartão?"
+    },
+    {
+      "new_fact_if_true": "realiza-compras-internacionais",
+      "question": "Você fez alguma compra internacional, seja em site estrangeiro ou em viagem?"
+    },
+    {
+      "new_fact_if_true": "usa-cheque-especial",
+      "question": "Você utilizou o cheque especial em sua conta bancária recentemente?"
+    },
+    {
+      "new_fact_if_true": "contratou-emprestimo",
+      "question": "Você contratou algum empréstimo bancário neste período?"
+    },
+    {
+      "new_fact_if_true": "contratou-financiamento",
+      "question": "Você contratou algum financiamento, como veículo ou imóvel?"
+    },
+    {
+      "new_fact_if_true": "compra-moeda-estrangeira",
+      "question": "Você comprou moeda estrangeira (como dólar ou euro) recentemente?"
+    },
+    {
+      "new_fact_if_true": "vende-moeda-estrangeira",
+      "question": "Você vendeu moeda estrangeira, seja em corretora ou casa de câmbio?"
+    },
+    {
+      "new_fact_if_true": "contratou-seguro",
+      "question": "Você contratou algum tipo de seguro, como seguro de vida, carro ou residência?"
+    },
+    {
+      "new_fact_if_true": "resgatou-renda-fixa",
+      "question": "Você resgatou algum investimento de renda fixa antes de completar 30 dias?"
+    }
+  ]
+}

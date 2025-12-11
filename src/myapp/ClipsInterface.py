@@ -10,7 +10,7 @@ class ClipsInterface:
 
 
     def __charge_rules(self, env: Environment) -> Environment:
-        env.load("src/myapp/rules/test.clp")
+        env.load("src/myapp/resources/rules/test.clp")
         return env        
 
     def run_inference(self):

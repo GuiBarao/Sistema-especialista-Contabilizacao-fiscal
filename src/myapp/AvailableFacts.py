@@ -18,6 +18,5 @@ class InitialFacts(str, Enum):
 class ResultFacts(str, Enum):
     
     #-----------------------Tax Classification----------------------#
-
     USA_CREDITO_ROTATIVO = "usa-credito-rotativo"
     IMPOSTO_IOF = "imposto-iof"
